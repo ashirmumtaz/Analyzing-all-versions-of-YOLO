@@ -1,8 +1,8 @@
 # Analyzing-all-versions-of-YOLO
-**Overview**
+**Overview**<br/>
 YOLOv5-v10 Comparison  Benchmarking YOLOv5 to YOLOv10 on a unified dataset. Analyze performance metrics, architectural differences, and identify optimization opportunities across YOLO versions.
 
-**Data Set:**
+**Data Set:**<br/>
 Downloaded the data set from Roboflow
 @misc{
 mri-rskcu_dataset,
@@ -24,7 +24,7 @@ Classes: Contain 2 classes
 
 
 
-**YOLO V6:**
+**YOLO V6:**<br/>
 Clone pretrained repository of Yolov6 from https://github.com/meituan/YOLOv6
 Train on custom data with
 •	Batch = 32
@@ -49,7 +49,7 @@ Time Taken 35-40 minutes
 **Conclusion of Yolov6s Base Model:**
 YoloV6 perform worst on grayscale Dataset. Not even able to predict the grayscale data.
 
-**YOLO V7:**
+**YOLO V7:**<br/>
 Clone pretrained repository of Yolov6 from
 https://github.com/WongKinYiu/yolov7
 Train on custom data with
@@ -84,7 +84,7 @@ Time Taken 55-60 minutes
 Need high computing power as the number of epochs increases from 55
 Or batch size increase from 16
 
-**YOLO V8:**
+**YOLO V8:**<br/>
 Clone pretrained repository of Yolov8 from https://github.com/ultralytics /ultralytics
 And installed the yolo v8 from this official repository 
 Train on custom data with
@@ -134,7 +134,7 @@ Confusion matrix
 Till now v8 performed best on this dataset with overall mAP of 0.904 
 
 
-**YOLO V10:**
+**YOLO V10:**<br/>
 Clone pretrained repository of Yolov10 from 
 https://github.com/tHU-MIG/yolov10.git
 Train on custom data with
